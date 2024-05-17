@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+  <script  src="https://code.jquery.com/jquery-3.6.0.min.js" ></script>
+  <title>Waiting List-UAT</title>
+</head>
+<body>
+    <!-- Navbar-->
+  <header>
+      <div>
+        <a href ="#"><img src = "DI_Logo2.png" class="logo"></a>
+      </div>
+  
+  </header>
+
+    <!-- Home Section-->
+<section class="home" id="home">
+<div class="max-width">
+    <div class="home-content">
+        
+        <div class="text-1">Hello, We are </div>
+        <div class="text-2">Daybreak Insight </div>
+        <div class="text-3">And We Specialise In <br> <span class="typing"></span> </div>
+        <br>
+        <h3> Days to Launch</h3>
+        <div class="launch-time">
+          <div>
+            <p id="days">00</p>
+            <span>Days</span>
+          </div>
+          <div >
+            <p id="hours">00</p>
+            <span>Hours</span>
+          </div>
+        <div >
+          <p id="minutes">00</p>
+          <span>Minutes</span>
+        </div>
+        <div >
+          <p id="seconds">00</p>
+          <span>Seconds</span>
+        </div>
+      </div>
+      
+      <a href="#form"> Join Our Waiting list</a>
+    </div>
+      
+    </div>
+    
+        </div>
+        
+      
+    </div>
+</div>
+</section>
+
+<!--Form -->
+
+<!--REDO naming conventions -->
+<section class="form" id="form">
+  <div class="max-width">
+    <h2 class="title">Stay in the Loop: Join Our Waitlist</h2>
+  <div class="form-content">
+    <form action="process-form.php" method="POST">
+      <div class="fields">
+        <h3>Secure your spot on our waiting list by completing this brief form. Be the first to know about upcoming releases, special offers, and exclusive opportunities</h3>
+        <p>Your full name</p>
+        <input type="text" id="fname" name="fullName" required>
+        <p>Your company name</p>
+        <input type="text" id="cname" name="companyName" required>
+        <p>Email address</p>
+        <input type="email" id="email" name="emailAddress" required>
+        <p>What is one word that describes your company/brand?</p>
+        <input type="text" id="Q1" name="Q1">
+
+        <p>Do you find user engagement through content creation important?</p>
+        <input type="radio" id="yes" name="Q2" value="YES">
+        <label for="yes">YES</label>
+        <input type="radio" id="no" name="Q2" value="NO">
+        <label for="yes">NO</label>
+     
+        <p>Would you say your company has a strong brand identity?</p>
+        <input type="radio" id="yes" name="Q3" value="YES">
+        <label for="yes">YES</label>
+        <input type="radio" id="no" name="Q3" value="NO">
+        <label for="no">NO</label>
+        <input type="radio" id="maybe" name="Q3" value="MAYBE">
+        <label for="maybe">MAYBE</label>
+        
+        <p>What is your companies STRONGEST method to getting new clients?</p>
+
+        <select id="strongest" name="Q4" >
+          <option value="Digital Marketing">Digital Marketing </option>
+          <option value="Networking">Networking</option>
+          <option value="Referral Programs">Referral Programs</option>
+          <option value="Content Marketing">Content Marketing </option>
+          <option value="Cold Outreach">Cold Outreach</option>
+        </select>
+       
+        <p>What is your companies WEAKEST method to getting new clients?</p>
+        <select id="weakest" name="Q5">
+          <option value="Digital Marketing">Digital Marketing </option>
+          <option value="Networking">Networking</option>
+          <option value="Referral Programs">Referral Programs</option>
+          <option value="Content Marketing">Content Marketing </option>
+          <option value="Cold Outreach">Cold Outreach</option>
+        </select>
+
+        <p>How would you rate your relationship with digital marketing?</p>
+        <input type="radio" id="weak" name="Q6" value="WEAK">
+        <label for="weak">WEAK</label>
+        <input type="radio" id="adequate" name="Q6" value="ADEQUATE">
+        <label for="adequate">ADEQUATE</label>
+        <input type="radio" id="strong" name="Q6" value="STRONG">
+        <label for="strong">STRONG</label>
+
+        <p>Do you actively engage with users on social media platforms?</p>
+        <input type="radio" id="yes" name="Q7" value="YES">
+        <label for="yes">YES</label>
+        <input type="radio" id="no" name="Q7" value="NO">
+        <label for="no">NO</label>
+        <p>Have you thought about search engine optimization (SEO) and how it will factor into your website strategy?</p>
+        <input type="radio" id="yes" name="Q8" value="YES">
+        <label for="yes">YES</label>
+        <input type="radio" id="no" name="Q8" value="NO">
+        <label for="no">NO</label>
+        <p>Have you explored the idea of enhancing your website or social media platform(s) with new features and/or content?</p>
+        <input type="radio" id="yes" name="Q9" value="YES">
+        <label for="yes">YES</label>
+        <input type="radio" id="no" name="Q9" value="NO">
+        <label for="no">NO</label><br>
+        <label>
+        <input type="checkbox" id="terms" name="TSANDCS" >
+        I agree to the <span> terms and conditions.</span>
+              </label>
+              <br>
+        <div class="button">
+        <button>Submit</button>
+        </div>
+        </div>
+      
+    </form>
+  </div>
+  </div>
+  </div>
+
+  <!--Footer-->
+</section>
+  <footer>
+    <span>Created By <a href="#"> Daybreak Insight</a> | <span class="far fa-copyright"></span> &copy 2024 All rights reserved.</span>
+  </footer>
+
+  <script src="scripts.js"></script>
+  <script> 
+    var countDownDate = new Date("June 3, 2024 00:00:00").getTime();
+    var x = setInterval(function(){
+    var now = new Date().getTime();
+    var distance = countDownDate - now;
+    
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24))/ (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60))/ (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+    document.getElementById("days").innerHTML = days;
+    document.getElementById("hours").innerHTML = hours;
+    document.getElementById("minutes").innerHTML = minutes;
+    document.getElementById("seconds").innerHTML = seconds;
+    
+    }, 1000);
+        </script>
+</body>
+</html>
