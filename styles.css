@@ -20,7 +20,7 @@
     width: 180px;
 }
 
-.width{
+.max-width{
     max-width: 1300px;
     padding:0 80px;
     margin: auto;
@@ -205,99 +205,160 @@ footer span a:hover{
 @media only screen and (max-width:375px){
     .logo{
         display: none;
-       }
-   
-       .max-width{
-           max-width:375px;
-           padding:0 80px;
-           margin: auto;
-       }
-   
+    }
+    .max-width{
+        max-width:max-content;
+        padding:0 70px;
+        margin: auto;
+    }
        .home{
-           background-color: #111; 
-           height: 80vh;
-           color:#fff;
-           min-height: 100px;
-           font-family: "VT323", monospace;
-           text-align: center;
-       }
-       
-       .home .home-content .text-1{
-           font-size: 30px;
-       }
-       .home .home-content .text-2{
-           font-size: 70px;
-           font-weight: 600;
-           margin-left: -3px;
-       }
-       .home .home-content .text-3{
-           font-size: 35px;
-           margin: 5px 0;
-       }
-       .home .home-content .text-3 span{
-           color: lightseagreen;
-           font-weight: 400;
-           font-size: 27px;
-       }
-       
-       .home .home-content a{
-           display: inline-block;
-           background: lightseagreen;
-           color: #fff;
-           font-size: 15px;
-           padding: 12px 32px;
-           margin-top: 20px;
-           border-radius: 6px;
-           border: 2px solid lightseagreen;
-           transition: all 0.2s ease;
-       }
-       .home .home-content a:hover{
-           color: #fff;
-           background: none;
-       
-       }
-       
-       .home .home-content h3{
-         color: #fff;
-         font-size: 30px;
-       
-       }
-       
-       
-       .home .home-content .launch-time{
-           display: flex;
-           padding-left: 5px;
-           box-sizing: border-box;
-           
-       
-       }
-       
-       .home .home-content .launch-time div{
-           flex-basis: 50px;
+        display: flex;
+        background-color: #111; 
+        height: 100vh;
+        color:#fff;
+        min-height: 100px;
+        font-family: "VT323", monospace;
+        text-align: center;
+    }
+    .home .home-content .text-1{
+        font-size: 30px;
+    }
+    .home .home-content .text-2{
+        font-size: 70px;
+        font-weight: 600;
+        margin-left: -3px;
+    }
+    .home .home-content .text-3{
+        font-size: 25px;
+        margin: 5px 0;
+    }
+    .home .home-content .text-3 span{
+        color: lightseagreen;
+        font-weight: 500;
+        font-size: 30px;
+    }
+    
+    .home .home-content a{
+        display: inline-block;
+        background: lightseagreen;
+        color: #fff;
+        font-size: 18px;
+        padding: 12px 32px;
+        margin-top: 20px;
+        border-radius: 6px;
+        border: 2px solid lightseagreen;
+        transition: all 0.2s ease;
+    }
+    .home .home-content a:hover{
+        color: #fff;
+        background: none;
+    
+    }
+    
+    .home .home-content h3{
+      color: #fff;
+      font-size: 30px;
+    
+    }
+    
+    
+    .home .home-content .launch-time{
+        display: flex;
+        padding: 0% 7%;
+        box-sizing: border-box;
         
-       }
-       .home .home-content .launch-time p{
-           font-size: 20px;
-           margin-bottom: -5px;
-           font-family:'poppins', sans-serif;
-       }
-   
+    
+    }
+    
+    .home .home-content .launch-time div{
+        flex-basis: 60px;
+     
+    }
+    .home .home-content .launch-time p{
+        font-size: 30px;
+        margin-bottom: -5px;
+        font-family:'poppins', sans-serif;
+    }
+
 }
 
-@media only screen and (max-width:390px){
+@media only screen and (min-width:390px){
     .logo{
         display: none;
     }
-}
-
-@media only screen and (max-width:412px){
-    .logo{
-        display: none;
+    .max-width{
+        min-width:min-content;
+        padding:0 80px;
+        margin: auto;
+    }
+       .home{
+        display: flex;
+        background-color: #111; 
+        height: 100vh;
+        color:#fff;
+        min-height: 100px;
+        font-family: "VT323", monospace;
+        text-align: center;
+    }
+    .home .home-content .text-1{
+        font-size: 40px;
+    }
+    .home .home-content .text-2{
+        font-size: 80px;
+        font-weight: 600;
+        margin-left: -3px;
+    }
+    .home .home-content .text-3{
+        font-size: 45px;
+        margin: 5px 0;
+    }
+    .home .home-content .text-3 span{
+        color: lightseagreen;
+        font-weight: 500;
+        font-size: 27px;
+    }
+    
+    .home .home-content a{
+        display: inline-block;
+        background: lightseagreen;
+        color: #fff;
+        font-size: 18px;
+        padding: 12px 32px;
+        margin-top: 20px;
+        border-radius: 6px;
+        border: 2px solid lightseagreen;
+        transition: all 0.2s ease;
+    }
+    .home .home-content a:hover{
+        color: #fff;
+        background: none;
+    
+    }
+    
+    .home .home-content h3{
+      color: #fff;
+      font-size: 40px;
+    
+    }
+    
+    
+    .home .home-content .launch-time{
+        display: flex;
+        padding: 0% 7%;
+        box-sizing: border-box;
+        
+    
+    }
+    
+    .home .home-content .launch-time div{
+        flex-basis: 60px;
+     
+    }
+    .home .home-content .launch-time p{
+        font-size: 30px;
+        margin-bottom: -5px;
+        font-family:'poppins', sans-serif;
     }
 }
 
-@media only screen and (max-width:430px){
-    .logo{
-        display: none;
-    }
-}
+
