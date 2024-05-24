@@ -6,4 +6,4 @@ deployment:
     - /bin/cp styles.css $DEPLOYPATH
     - /bin/cp scripts.js $DEPLOYPATH
     - /bin/cp process-form.php $DEPLOYPATH
-    - /bin/cp w $DEPLOYPATH
+
