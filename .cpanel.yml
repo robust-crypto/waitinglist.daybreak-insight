@@ -1,9 +1,9 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/daybrea4/waitinglist.daybreak-insight/
+    - export DEPLOYPATH=/home/daybrea4/repositories/waitinglist.daybreak-insight/
     - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp style.css $DEPLOYPATH
-
-
-   
+    - /bin/cp styles.css $DEPLOYPATH
+    - /bin/cp scripts.js $DEPLOYPATH
+    - /bin/cp process-form.php $DEPLOYPATH
+    - /bin/cp w $DEPLOYPATH
