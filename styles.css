@@ -13,13 +13,6 @@
 
 }
 
-.logo{
-    position:absolute;
-    height: auto;
-    left: 20px;
-    width: 180px;
-}
-
 .max-width{
     max-width: 1300px;
     padding:0 80px;
@@ -203,9 +196,6 @@ footer span a:hover{
 
 /* responsive media query start */
 @media only screen and (max-width:375px){
-    .logo{
-        display: none;
-    }
     .max-width{
         max-width:max-content;
         padding:0 60px;
@@ -277,9 +267,6 @@ footer span a:hover{
 
 }
 @media only screen and (min-width:389px){
-    .logo{
-        display: none;
-    }
     .max-width{
         min-width:min-content;
         padding:0 65px;
@@ -445,9 +432,6 @@ footer span a:hover{
 }
 
 @media only screen and (min-width:768px){
-    .logo{
-        display: none;
-    }
     .max-width{
         min-width:min-content;
         padding:100px 60px;
@@ -530,9 +514,7 @@ footer span a:hover{
 }
 
 @media only screen and (min-width:1024px){
-    .logo{
-        display: none;
-    }
+  
     .max-width{
         min-width:min-content;
         padding:15px 60px;
