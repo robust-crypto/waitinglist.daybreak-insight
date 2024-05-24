@@ -1,6 +1,6 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/daybrea4/repositories/waitinglist.daybreak-insight/
-    - /bin/cp -R * $DEPLOYPATH
+    - export DEPLOYPATH=/home/daybrea4/waitinglist.daybreak-insight.com/
+    - /bin/cp -r * $DEPLOYPATH
 
