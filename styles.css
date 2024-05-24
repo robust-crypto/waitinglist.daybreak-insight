@@ -208,7 +208,7 @@ footer span a:hover{
     }
     .max-width{
         max-width:max-content;
-        padding:0 70px;
+        padding:0 60px;
         margin: auto;
     }
        .home{
@@ -237,7 +237,6 @@ footer span a:hover{
         font-weight: 500;
         font-size: 30px;
     }
-    
     .home .home-content a{
         display: inline-block;
         background: lightseagreen;
@@ -254,14 +253,11 @@ footer span a:hover{
         background: none;
     
     }
-    
     .home .home-content h3{
       color: #fff;
       font-size: 30px;
     
     }
-    
-    
     .home .home-content .launch-time{
         display: flex;
         padding: 0% 7%;
@@ -269,7 +265,6 @@ footer span a:hover{
         
     
     }
-    
     .home .home-content .launch-time div{
         flex-basis: 60px;
      
@@ -281,14 +276,13 @@ footer span a:hover{
     }
 
 }
-
-@media only screen and (min-width:390px){
+@media only screen and (min-width:389px){
     .logo{
         display: none;
     }
     .max-width{
         min-width:min-content;
-        padding:0 80px;
+        padding:0 65px;
         margin: auto;
     }
        .home{
@@ -309,13 +303,13 @@ footer span a:hover{
         margin-left: -3px;
     }
     .home .home-content .text-3{
-        font-size: 45px;
+        font-size: 24px;
         margin: 5px 0;
     }
     .home .home-content .text-3 span{
         color: lightseagreen;
         font-weight: 500;
-        font-size: 27px;
+        font-size: 35px;
     }
     
     .home .home-content a{
@@ -346,7 +340,7 @@ footer span a:hover{
         display: flex;
         padding: 0% 7%;
         box-sizing: border-box;
-        
+        margin-left: 4px;
     
     }
     
@@ -359,6 +353,264 @@ footer span a:hover{
         margin-bottom: -5px;
         font-family:'poppins', sans-serif;
     }
+    .home .home-content .launch-time span{
+        font-size: 10px;
+        margin-bottom: -5px;
+        font-family:'poppins', sans-serif;
+    }
 }
 
+@media only screen and (min-width:540px){
+    .logo{
+        display: none;
+    }
+    .max-width{
+        min-width:min-content;
+        padding:0 65px;
+        margin: auto;
+    }
+       .home{
+        display: flex;
+        background-color: #111; 
+        height: 100vh;
+        color:#fff;
+        min-height: 100px;
+        font-family: "VT323", monospace;
+        text-align: center;
+    }
+    .home .home-content .text-1{
+        font-size: 40px;
+    }
+    .home .home-content .text-2{
+        font-size: 80px;
+        font-weight: 600;
+        margin-left: -3px;
+    }
+    .home .home-content .text-3{
+        font-size: 24px;
+        margin: 5px 0;
+    }
+    .home .home-content .text-3 span{
+        color: lightseagreen;
+        font-weight: 500;
+        font-size: 35px;
+    }
+    
+    .home .home-content a{
+        display: inline-block;
+        background: lightseagreen;
+        color: #fff;
+        font-size: 18px;
+        padding: 12px 32px;
+        margin-top: 20px;
+        border-radius: 6px;
+        border: 2px solid lightseagreen;
+        transition: all 0.2s ease;
+    }
+    .home .home-content a:hover{
+        color: #fff;
+        background: none;
+    
+    }
+    
+    .home .home-content h3{
+      color: #fff;
+      font-size: 40px;
+    
+    }
+    
+    
+    .home .home-content .launch-time{
+        display: flex;
+        padding: 0% 7%;
+        box-sizing: border-box;
+        margin-left: 55px;
+    
+    }
+    
+    .home .home-content .launch-time div{
+        flex-basis: 60px;
+     
+    }
+    .home .home-content .launch-time p{
+        font-size: 30px;
+        margin-bottom: -5px;
+        font-family:'poppins', sans-serif;
+    }
+    .home .home-content .launch-time span{
+        font-size: 10px;
+        margin-bottom: -5px;
+        font-family:'poppins', sans-serif;
+    }
+}
+
+@media only screen and (min-width:768px){
+    .logo{
+        display: none;
+    }
+    .max-width{
+        min-width:min-content;
+        padding:100px 60px;
+        margin: auto;
+    }
+       .home{
+        display: flex;
+        background-color: #111; 
+        height: 100vh;
+        color:#fff;
+        min-height: 100px;
+        font-family: "VT323", monospace;
+        text-align: center;
+    }
+    .home .home-content .text-1{
+        font-size: 70px;
+    }
+    .home .home-content .text-2{
+        font-size: 110px;
+        font-weight: 600;
+        margin-left: -3px;
+    }
+    .home .home-content .text-3{
+        font-size: 65px;
+        margin: 5px 0;
+    }
+    .home .home-content .text-3 span{
+        color: lightseagreen;
+        font-weight: 500;
+        font-size: 57px;
+    }
+    
+    .home .home-content a{
+        display: inline-block;
+        background: lightseagreen;
+        color: #fff;
+        font-size: 38px;
+        padding: 20px 40px;
+        margin-top: 20px;
+        border-radius: 6px;
+        border: 2px solid lightseagreen;
+        transition: all 0.2s ease;
+    }
+    .home .home-content a:hover{
+        color: #fff;
+        background: none;
+    
+    }
+    
+    .home .home-content h3{
+      color: #fff;
+      font-size: 70px;
+    
+    }
+    
+    
+    .home .home-content .launch-time{
+        display: flex;
+        padding:0 7%;
+        box-sizing: border-box;
+        margin-left: 12%;
+    
+    }
+    
+    .home .home-content .launch-time div{
+        flex-basis: 20%;
+     
+    }
+    .home .home-content .launch-time p{
+        font-size: 40px;
+        margin-bottom: -5px;
+        font-family:'poppins', sans-serif;
+    }
+
+    .home .home-content .launch-time span{
+        font-size: 17px;
+        margin-bottom: -5px;
+        font-family:'poppins', sans-serif;
+    }
+}
+
+@media only screen and (min-width:1024px){
+    .logo{
+        display: none;
+    }
+    .max-width{
+        min-width:min-content;
+        padding:15px 60px;
+        margin: auto;
+    }
+       .home{
+        display: flex;
+        background-color: #111; 
+        height: 100vh;
+        color:#fff;
+        min-height: 100px;
+        font-family: "VT323", monospace;
+        text-align: center;
+    }
+    .home .home-content .text-1{
+        font-size: 60px;
+    }
+    .home .home-content .text-2{
+        font-size: 90px;
+        font-weight: 600;
+        margin-left: -3px;
+    }
+    .home .home-content .text-3{
+        font-size: 45px;
+        margin: 5px 0;
+    }
+    .home .home-content .text-3 span{
+        color: lightseagreen;
+        font-weight: 500;
+        font-size: 57px;
+    }
+    
+    .home .home-content a{
+        display: inline-block;
+        background: lightseagreen;
+        color: #fff;
+        font-size: 30px;
+        padding: 15px 40px;
+        margin-top: 20px;
+        border-radius: 6px;
+        border: 2px solid lightseagreen;
+        transition: all 0.2s ease;
+    }
+    .home .home-content a:hover{
+        color: #fff;
+        background: none;
+    
+    }
+    
+    .home .home-content h3{
+      color: #fff;
+      font-size: 70px;
+    
+    }
+    
+    
+    .home .home-content .launch-time{
+        display: flex;
+        padding:0 7%;
+        box-sizing: border-box;
+        margin-left: 12%;
+    
+    }
+    
+    .home .home-content .launch-time div{
+        flex-basis: 20%;
+     
+    }
+    .home .home-content .launch-time p{
+        font-size: 40px;
+        margin-bottom: -5px;
+        font-family:'poppins', sans-serif;
+    }
+
+    .home .home-content .launch-time span{
+        font-size: 17px;
+        margin-bottom: -5px;
+        font-family:'poppins', sans-serif;
+    }
+}
 
