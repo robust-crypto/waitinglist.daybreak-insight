@@ -77,19 +77,35 @@ margin: 15px 0;
     justify-content: center;
     position: relative;
     min-width: 250px;
-    height:20px;
-
+    height: 25px;
 }
-.form .form-content .select-box{
+
+.form .form-content .select-container .icon-container{
+    width: 50px;
+    height:100%;
+    position: absolute;
+    right: 42%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form .form-content .select-container .icon-container span{
+    font-size: 30px;
+    color:lightseagreen;
+}
+
+.form .form-content .select-container .select-box{
   border: none;
   appearance: none;
-  padding: 0 30px 0 15px;
-  width: 20%;
-  color:white;
-  background-color: lightseagreen;
+  padding: 0px 30px 0px 15px;
+  width: 15%;
+  color:lightseagreen;
+  background-color: #fff;
   font-size:16px; 
   border-radius: 5px; 
 }
+
+
 
 .form .form-content .button button{
     height: 47px;
@@ -208,23 +224,23 @@ footer span a:hover{
     background: #111;
     font-family: "Poppins", sans-serif;
     text-align: center;
-
 }
 
 
 
 .form .title {
-    font-size: 40px;
+    font-size: 20px;
     text-align: center;
     text-transform: uppercase;
     font-family: "Roboto", sans-serif;
     padding-top: 15px;
     color: lightseagreen;
     padding-bottom: 50px;
+
 }
 
 .form .form-content h3{
-    font-size: 20px;
+    font-size: 15px;
     text-align: center;
     text-transform: uppercase;
     font-family: "Roboto", sans-serif;
@@ -235,35 +251,69 @@ footer span a:hover{
 
 .form .form-content p{
     color: lightseagreen;
-font-size: 20px;
-margin: 15px 0;
-
+    font-size: 16px;
+    margin: 15px 1px;
 }
 
 .form .form-content input[type="text"]{
-    font-size: 16px;
-    padding: 10px 15px;
+    font-size: 15px;
+    padding: 5px 15px;
     border: 0;
-    width: 40%;
+    width: 90%;
     border-radius: 5px;
     outline: none;
 
 }
 
 .form .form-content input[type="email"]{
-    font-size: 16px;
-    padding: 10px 15px;
+    font-size: 15px;
+    padding: 5px 15px;
     border: 0;
-    width: 40%;
+    width: 90%;
     border-radius: 5px;
     outline: none;
 
 }
 
-.form .form-content label,
-.form .form-content input[type="radio"]{
+.form .form-content label{
     font-size: 16px;
-    padding-right: 5px;
+    padding-right: 1px;
+}
+.form .form-content input[type="radio"]{
+    font-size: 14px;
+
+}
+.form .form-content .select-container{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    min-width: 250px;
+    height: 30px;
+}
+
+.form .form-content .select-container .icon-container{
+    width: 50px;
+    height:100%;
+    position: absolute;
+    right: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form .form-content .select-container .icon-container span{
+    font-size: 30px;
+    color:lightseagreen;
+}
+
+.form .form-content .select-container .select-box{
+  border: none;
+  appearance: none;
+  padding: 0px 30px 0px 15px;
+  width: 68%;
+  color:lightseagreen;
+  background-color: #fff;
+  font-size:16px; 
+  border-radius: 5px; 
 }
 
 .form .form-content .button button{
@@ -273,6 +323,7 @@ margin: 15px 0;
     margin-bottom: 30px;
 
 }
+
 
 .form .form-content form button{
     border: 2px solid lightseagreen;
@@ -286,9 +337,11 @@ margin: 15px 0;
 }
 .form .form-content form button:hover{
     color:#fff;
-    background: none;
+    background: lightseagreen;
 }
-
+ .form .form-content input[type="checkbox"] {
+    font-size: 10px;
+}
 
 }
 @media only screen and (min-width:389px){

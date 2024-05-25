@@ -12,6 +12,7 @@
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
   <script  src="https://code.jquery.com/jquery-3.6.0.min.js" ></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
   <title>Waiting List-Test</title>
 </head>
 <body>
@@ -74,21 +75,19 @@
         <input type="email" id="email" name="emailAddress" required>
         <p>What is one word that describes your company/brand?</p>
         <input type="text" id="Q1" name="Q1">
-
+         <br>
         <p>Do you find user engagement through content creation important?</p>
         <input type="radio" id="yes" name="Q2" value="YES">
         <label for="yes">YES</label>
         <input type="radio" id="no" name="Q2" value="NO">
         <label for="yes">NO</label>
-     
+     <br>
         <p>Would you say your company has a strong brand identity?</p>
         <input type="radio" id="yes" name="Q3" value="YES">
         <label for="yes">YES</label>
         <input type="radio" id="no" name="Q3" value="NO">
         <label for="no">NO</label>
-        <input type="radio" id="maybe" name="Q3" value="MAYBE">
-        <label for="maybe">MAYBE</label>
-        
+        <br>
         <p>What is your companies STRONGEST method to getting new clients?</p>
 <div class="select-container">
         <select class="select-box" id="strongest" name="Q4" >
@@ -98,6 +97,11 @@
           <option value="Content Marketing">Content Marketing </option>
           <option value="Cold Outreach">Cold Outreach</option>
         </select>
+        <div class="icon-container">
+          <span class="material-symbols-outlined">
+            arrow_drop_down
+            </span>
+        </div>
 </div>     
         <p>What is your companies WEAKEST method to getting new clients?</p>
 
@@ -109,15 +113,18 @@
           <option value="Content Marketing">Content Marketing </option>
           <option value="Cold Outreach">Cold Outreach</option>
         </select>
+        <div class="icon-container">
+          <span class="material-symbols-outlined">
+            arrow_drop_down
+            </span>
+        </div>
       </div>
 
-        <p>How would you rate your relationship with digital marketing?</p>
-        <input type="radio" id="weak" name="Q6" value="WEAK">
-        <label for="weak">WEAK</label>
-        <input type="radio" id="adequate" name="Q6" value="ADEQUATE">
-        <label for="adequate">ADEQUATE</label>
-        <input type="radio" id="strong" name="Q6" value="STRONG">
-        <label for="strong">STRONG</label>
+        <p>Is your relationship with digital marketing good?</p>
+        <input type="radio" id="yes" name="Q6" value="YES">
+        <label for="yes">YES</label>
+        <input type="radio" id="no" name="Q6" value="NO">
+        <label for="no">NO</label>
 
         <p>Do you actively engage with users on social media platforms?</p>
         <input type="radio" id="yes" name="Q7" value="YES">
@@ -135,6 +142,7 @@
         <input type="radio" id="no" name="Q9" value="NO">
         <label for="no">NO</label><br>
         <label>
+          <br>
         <input type="checkbox" id="terms" name="TSANDCS" >
         I agree to the <span> terms and conditions.</span>
               </label>
