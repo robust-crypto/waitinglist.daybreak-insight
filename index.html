@@ -66,7 +66,7 @@
   <div class="form-content">
     <form action="process-form.php" method="POST">
       <div class="fields">
-        <h3>Secure your spot on our waiting list by completing this brief form. Be the first to know about upcoming releases, special offers, and exclusive opportunities</h3>
+        <h3>We value your feedback, as it helps us understand how to tailor our solutions to better meet your needs.</h3>
         <p>Your full name</p>
         <input type="text" id="fname" name="fullName" required>
         <p>Your company name</p>
@@ -77,17 +77,28 @@
         <input type="text" id="Q1" name="Q1">
          <br>
         <p>Do you find user engagement through content creation important?</p>
+        <label class="container">
         <input type="radio" id="yes" name="Q2" value="YES">
+        <span class="checkmark"></span>
         <label for="yes">YES</label>
+        </label>
+        <label class="container">
         <input type="radio" id="no" name="Q2" value="NO">
         <label for="yes">NO</label>
-     <br>
+         <span class="checkmark"></span>
+      </label>
         <p>Would you say your company has a strong brand identity?</p>
-        <input type="radio" id="yes" name="Q3" value="YES">
-        <label for="yes">YES</label>
-        <input type="radio" id="no" name="Q3" value="NO">
-        <label for="no">NO</label>
-        <br>
+        <label class="container">
+          <input type="radio" id="yes" name="Q3" value="YES">
+          <span class="checkmark"></span>
+          <label for="yes">YES</label>
+          </label>
+          <label class="container">
+          <input type="radio" id="no" name="Q3" value="NO">
+          <label for="yes">NO</label>
+           <span class="checkmark"></span>
+        </label>
+
         <p>What is your companies STRONGEST method to getting new clients?</p>
 <div class="select-container">
         <select class="select-box" id="strongest" name="Q4" >
@@ -121,28 +132,52 @@
       </div>
 
         <p>Is your relationship with digital marketing good?</p>
-        <input type="radio" id="yes" name="Q6" value="YES">
-        <label for="yes">YES</label>
-        <input type="radio" id="no" name="Q6" value="NO">
-        <label for="no">NO</label>
+        <label class="container">
+          <input type="radio" id="yes" name="Q6" value="YES">
+          <span class="checkmark"></span>
+          <label for="yes">YES</label>
+          </label>
+          <label class="container">
+          <input type="radio" id="no" name="Q6" value="NO">
+          <label for="yes">NO</label>
+           <span class="checkmark"></span>
+        </label>
+        <p>Do you feel that brand identity is important when reaching a new audience?</p>
+        <label class="container">
+          <input type="radio" id="yes" name="Q7" value="YES">
+          <span class="checkmark"></span>
+          <label for="yes">YES</label>
+          </label>
+          <label class="container">
+          <input type="radio" id="no" name="Q7" value="NO">
+          <label for="yes">NO</label>
+           <span class="checkmark"></span>
+        </label>
 
-        <p>Do you actively engage with users on social media platforms?</p>
-        <input type="radio" id="yes" name="Q7" value="YES">
-        <label for="yes">YES</label>
-        <input type="radio" id="no" name="Q7" value="NO">
-        <label for="no">NO</label>
         <p>Have you thought about search engine optimization (SEO) and how it will factor into your website strategy?</p>
-        <input type="radio" id="yes" name="Q8" value="YES">
-        <label for="yes">YES</label>
-        <input type="radio" id="no" name="Q8" value="NO">
-        <label for="no">NO</label>
+        <label class="container">
+          <input type="radio" id="yes" name="Q8" value="YES">
+          <span class="checkmark"></span>
+          <label for="yes">YES</label>
+          </label>
+          <label class="container">
+          <input type="radio" id="no" name="Q8" value="NO">
+          <label for="yes">NO</label>
+           <span class="checkmark"></span>
+        </label>
+
         <p>Have you explored the idea of enhancing your website or social media platform(s) with new features and/or content?</p>
+             <label class="container">
         <input type="radio" id="yes" name="Q9" value="YES">
+        <span class="checkmark"></span>
         <label for="yes">YES</label>
+        </label>
+        <label class="container">
         <input type="radio" id="no" name="Q9" value="NO">
-        <label for="no">NO</label><br>
-        <label>
-          <br>
+        <label for="yes">NO</label>
+         <span class="checkmark"></span>
+      </label>
+      <br>
         <input type="checkbox" id="terms" name="TSANDCS" >
         I agree to the <span> terms and conditions.</span>
               </label>
